@@ -1,0 +1,41 @@
+= GroovySchool : Groovy Diversity Initiative Web Application
+:author: GR8DI Interns 
+v1.0, 02.09.2019: First draft
+:sectnums:
+:toc:
+:toclevels: 4
+
+An online application platform to learn Groovy programming language an it related technologies.
+
+
+
+== Project Description
+This project uses grails as framework to build it. 
+Intellij idea is the preferred editor for grails.
+Application would focus on teaching Groovy programming language and related technologies.
+
+== Getting started
+Fork and Clone this repository from https://github.com/GR8DI/groovyschool  to get started. To run the app locally, use the command
+ 
+ grails run-app
+
+== Prerequisites && Running
+Before running the app, you will need to setup your environment as follows:
+
+* Install grails and intellij idea on your computer. Install grails using command
+ 
+ $sdk install grails
+
+* Navigate to your cloned project location in intellij idea, and in the terminal run the command.
+
+ $ grails run-app 
+ $ ./grailsw run-app
+
+== Testing 
+ $ grails test-app
+
+* If you want to run only unit tests or integration/functional tests, you can pass in a command line flag to choose one or the other.
+
+ $ ./grailsw test-app -unit 
+ $ ./grails test-app -integration
+
