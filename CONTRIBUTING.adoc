@@ -1,0 +1,66 @@
+= CONTIBUTORS GUIDE:For GroovySchool web Application
+:author: GR8DI Interns
+:sectnums:
+:toc:
+:toclevels: 4
+
+If you wish to contibute to groovyschool web  application please follow the following guide.
+
+== Project Presentation
+An online appllication platform to learn Groovy programming language an it related technologies.
+This application seeks to
+
+* Teach the groovy programming language 
+* Teach grails.
+* Bring groovy developpers together
+
+== Getting Started
+Before you start with anything you have to setup your environment.
+* Download and install the following applications from the links indicated
+ 
+Groovy: https://groovy.apache.org/download.html
+
+Grails: https://grails.org (follow README file on how to install )
+
+Git   : https://git-scm.com/downloads
+
+intellij idea(ultimate version) : https://www.jetbrains.com/idea/download/#section=w
+
+* Create a github account if u don't have one . You can create one from the following link:  https://github.com
+* If you already have an account or just created one, Join the Groovy Diversity Initiative at following link https://github.com/GR8DI
+
+* Fork repository at https://github.com/GR8DI/groovyschool.git
+
+* clone repository to   your machine using git command:
+  
+  git clone <web address>
+
+* Navigate to repository using  git bash and setup remotes , that is your origin and upstream.
+
+== Guidlines 
+When done with setting up your environment, follow the steps to add your own file 
+
+* Write file you want to contribute, or edit a file of your choice already in the repository preferably in intellij idea IDE and save
+
+* Use command below to stage file
+ 
+ git add <filename>
+
+* And  lastly but not the least commit file to local  repository using 
+
+ git commit -m "something about commit"
+
+* Finally push commit to online repository and make a pull request, as to add your contribution to the master branch
+
+ git push -u origin master
+ "this would prompt your to enter username and password. you must be connected to the internet to run this command"
+
+* You can equally view the issues as to what files need to be added to the platform and then make and add them.
+
+
+== Community and Help
+You can get help from the following community links 
+
+* How to install and use grails : https://github.com/grails/grails-core/blob/master/README.md 
+* How to install and use groovy : https://github.com/apache/groovy/blob/master/README.adoc
+* Join groovy community on slack : https://www.groovycommunity.com
