@@ -3,6 +3,7 @@
 <head>
 	<meta charset="utf-8" />
 	<title>Registration Page</title>
+	<link rel="stylesheet" type="text/css" href="../assets/stylesheets/registration.css" />
 </head>
 <body>
 	<div class="registration">
