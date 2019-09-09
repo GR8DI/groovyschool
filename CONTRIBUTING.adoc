@@ -33,7 +33,7 @@ intellij idea(ultimate version) : https://www.jetbrains.com/idea/download/#secti
 
 * clone repository to   your machine using git command:
   
-  git clone <web address>
+  git clone https://github.com/YourUserName/groovyschool.git
 
 Detailed procedure is explained below.
 
@@ -62,7 +62,7 @@ Guide:Step-by-step
 
 For every commit please write the Author's name followed by a  descriptions of the change. This description should contain the ticket number and title.
 
-    git commit -m "Author| Put change summary here (can be ticket title)"
+    git commit -m "#1| Put change summary here (can be ticket title)"
     
 **NEVER leave the commit message blank!**
 
@@ -70,6 +70,8 @@ For every commit please write the Author's name followed by a  descriptions of t
 	Before submitting a Pull request, update your branch to the latest code.
 
     git pull --rebase upstream master
+Note 
+**Upstream is https://github.com/GR8DI/groovyschool.git  ** 
 
 6) Push changes to your fork:
 

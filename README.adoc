@@ -29,7 +29,7 @@ Before running the app, you will need to setup your environment as follows:
 
 Grails app will run on port https://localhost:8080
 
-== Contribution
+== Contributing
 Your contributions are what will make this project a great addition to the gr8di ecosystem. Visit the contributing (https://github.com/GR8DI/groovyschool/CONTRIBUTING.adoc[contributing.adoc]) guide.
 
 == Testing 
