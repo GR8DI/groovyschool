@@ -9,3 +9,15 @@
 //= require bootstrap
 //= require popper.min
 //= require_self
+//= require bootstrap-datepicker
+//= require bootstrap-select
+//= require chartist.min
+//= require ct-paper
+//= require ct-paper-bootstrapswitch
+//= require ct-paper-checkbox
+//= require ct-paper-radio
+//= require demo
+//= require jasny-bootstrap.min
+//= require jquery.tagsinput
+//= require jquery-1.10.2
+//= require jquery-ui-1.10.4.custom.min

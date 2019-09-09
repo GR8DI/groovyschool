@@ -8,12 +8,14 @@
     </title>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <asset:link rel="icon" href="favicon.ico" type="image/x-ico"/>
-
     <asset:stylesheet src="application.css"/>
-
+    <asset:stylesheet src="ct-paper.css"/>
+    <asset:stylesheet src="demo.css"/>
+    <asset:stylesheet src="examples.css"/>
+    <asset:stylesheet src="themify-icons.css"/>
+    <asset:stylesheet src="themify-icons-demo.css"/>
     <g:layoutHead/>
 </head>
-
 <body>
 
 <nav class="navbar navbar-expand-lg navbar-dark navbar-static-top" role="navigation">
@@ -65,6 +67,17 @@
 </div>
 
 <asset:javascript src="application.js"/>
-
+<asset:javascript src="bootstrap-datepicker.js"/>
+<asset:javascript src="bootstrap-select.js"/>
+<asset:javascript src="chartist.min.js"/>
+<asset:javascript src="ct-paper.js"/>
+<asset:javascript src="ct-paper-bootstrapswitch.js"/>
+<asset:javascript src="ct-paper-checkbox.js"/>
+<asset:javascript src="ct-paper-radio.js"/>
+<asset:javascript src="demo.js"/>
+<asset:javascript src="jasny-bootstrap.min.js"/>
+<asset:javascript src="jquery.tagsinput.js"/>
+<asset:javascript src="jquery-1.10.2.js"/>
+<asset:javascript src="jquery-ui-1.10.04.custom.min.js"/>
 </body>
 </html>
