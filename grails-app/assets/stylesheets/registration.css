@@ -1,0 +1,40 @@
+body{
+	font-size: 100%;
+	background-image: url("../images/blue.jpg");
+}
+.registration{
+	margin: auto;
+	width: 60%;
+	padding: 20px;
+	text-align: center;
+}
+h4{
+	font-size: 30px;
+	color: navy;
+	text-align: center;
+}
+.login{
+	margin: auto;
+	width: 60%;
+	padding:20px;
+	text-align: center;
+}
+input[type=text], input[type=password]{
+	width: 40%;
+	padding: 10px 10px;
+	margin: 10px;
+	box-sizing: border-box;
+	font-size: 15px;
+	border-radius: 12px;	
+}
+input[type=submit]{
+	background-color: lime;
+	border: none;
+	color: black;
+	text-align: center;
+	padding: 10px 10px;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	border-radius: 12px;
+}
