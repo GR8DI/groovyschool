@@ -2,7 +2,16 @@
 <html>
 <head>
     <meta name="layout" content="main"/>
-    <title>Welcome to Grails</title>
+    <title>Welcome to Groovyschool</title>
+    <style type="text/css">
+        #caption{
+            text-align: center;
+            padding: 10px;
+            font-size: 18px;
+        }
+
+    </style>
+
 </head>
 <body>
 <content tag="nav">
@@ -50,17 +59,36 @@
 </div>
 
 <div id="content" role="main">
-    <section class="row colset-2-its">
-        <h1>Welcome to Grails</h1>
+    <section>
+        <h1 style="font-size:50px; color:#555555; text-align:center">Welcome to Groovyschool</h1>
 
-        <p>
-            Congratulations, you have successfully started your first Grails application! At the moment
-            this is the default page, feel free to modify it to either redirect to a controller or display
-            whatever content you may choose. Below is a list of controllers that are currently deployed in
-            this application, click on each to execute its default action:
+        <p id="caption">
+            <em>An online learning platform application for the Groovy programming language and its related technologies.</em>
         </p>
+    </section>
+</div>
+ <section>
+<div class="block" style="padding:3%">
+    <h2 style="font-size:30px; color:#555555;">APACHE GROOVY</h2>
+    <p>Apache Groovy is a powerful, optionally typed and dynamic language, with static-typing and static compilation capabilities, for the Java platform aimed at improving developer productivity thanks to a concise, familiar and easy to learn syntax. It integrates smoothly with any Java program, and immediately delivers to your application powerful features, including scripting capabilities, Domain-Specific Language authoring, runtime and compile-time meta-programming and functional programming.</p>
+    <a href="#" >LEARN APACHE GROOVY</a>
+</div>
+</section>
 
-        <div id="controllers" role="navigation">
+<section>
+<div class="block" style="padding:3%">
+    <h3 style="font-size:30px; color:#555555;">GRAILS</h3>
+    <p>A powerful Groovy-based web application framework for the JVM built on top of Spring Boot</p>
+    <a href="#" >LEARN GRAILS</a>
+</div>
+<div class="block" style="padding:3%">
+    <h3 style="font-size:30px; color:#555555;">SPOCK</h3>
+    <p>Spock is a testing and specification framework for Java and Groovy applications. What makes it stand out from the crowd is its beautiful and highly expressive specification language. Thanks to its JUnit runner, Spock is compatible with most IDEs, build tools, and continuous integration servers. Spock is inspired from JUnit, RSpec, jMock, Mockito, Groovy, Scala, Vulcans, and other fascinating life forms.</p>
+    <a href="#" >LEARN SPOCK</a>
+</div>
+</section>
+
+<div id="controllers" role="navigation">
             <h2>Available Controllers:</h2>
             <ul>
                 <g:each var="c" in="${grailsApplication.controllerClasses.sort { it.fullName } }">
@@ -70,8 +98,6 @@
                 </g:each>
             </ul>
         </div>
-    </section>
-</div>
 
 </body>
 </html>
