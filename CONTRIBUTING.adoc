@@ -1,0 +1,94 @@
+= CONTIBUTORS GUIDE For GroovySchool 
+:author: GR8DI Interns
+:sectnums:
+:toc:
+:toclevels: 4
+
+If you wish to contibute to groovyschool web  application please follow the following guide.
+
+== Project Presentation
+An online appllication platform to learn Groovy programming language an it related technologies.
+This application seeks to
+
+* Teach the groovy programming language 
+* Teach Grails.
+* Bring Groovy developers together
+
+== Getting Started
+Before you start with anything you have to setup your environment.
+* Download and install the following applications from the links indicated
+ 
+Groovy: https://groovy.apache.org/download.html
+
+Grails: https://grails.org 
+
+Git   : https://git-scm.com/downloads
+
+intellij idea(ultimate version) : https://www.jetbrains.com/idea/download/#section=w
+
+* Create a github account if u don't have one . You can create one from the following link:  https://github.com
+* If you already have an account or just created one, Join the Groovy Diversity Initiative at following link https://github.com/GR8DI
+
+* Fork repository at https://github.com/GR8DI/groovyschool.git
+
+* clone repository to   your machine using git command:
+  
+  git clone https://github.com/YourUserName/groovyschool.git
+
+Detailed procedure is explained below.
+
+== Guidlines 
+When done with setting up your environment, follow the steps to add your own file 
+
+Guide:Step-by-step
+
+1) -Find an issue you will like to work on.
+
+2) -Fork the repo on which you're working, clone your forked repo to your local computer, and set up the upstream remote:
+
+ git clone https://github.com/YourUserName/groovyschool.git
+ cd groovyschool
+ git remote add upstream https://github.com/GR8DI/groovyschool.git
+
+3) Checkout out a new local branch based on your master and update it to the latest. The convention is to name the branch after the current trello task/issue number, e.g. GS-#2
+
+ git checkout -b GS-#2 master
+ git clean -df
+ git pull --rebase upstream master
+
+**Please keep your code clean. Name your branch after the Gitlab issue or other description of the work being done. If you find another bug, you want to fix while being in a new branch, please fix it in a separated branch instead.** 
+
+4) Commit
+
+For every commit please write the Author's name followed by a  descriptions of the change. This description should contain the ticket number and title.
+
+    git commit -m "#1| Put change summary here (can be ticket title)"
+    
+**NEVER leave the commit message blank!**
+
+5) Issue a Pull Request
+	Before submitting a Pull request, update your branch to the latest code.
+
+    git pull --rebase upstream master
+Note 
+**Upstream is https://github.com/GR8DI/groovyschool.git  ** 
+
+6) Push changes to your fork:
+
+    $ git push origin GS-#2 or git push -f
+
+7) In order to make a merge request,
+
+Navigate to the modules repository you just pushed to (e.g. https://gitlab.com/your-user-name/groovyschool)
+To the right of the Branch menu, click "New pull request"
+Type a title and description for your pull request.
+To create a pull request that is ready for review, click Create Pull Request". 
+To create a draft pull request, use the drop-down and select Create Draft Pull Request, then click "Draft Pull Request"
+
+
+== Community and Help
+You can get help from the following community links 
+
+* How to install and use grails : https://github.com/grails/grails-core/blob/master/README.md 
+* How to install and use groovy : https://github.com/apache/groovy/blob/master/README.adoc
+* Join groovy community on slack : https://www.groovycommunity.com

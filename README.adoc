@@ -1,0 +1,42 @@
+= GroovySchool 
+:author: GR8DI Interns 
+v1.0, 02.09.2019: First draft
+:sectnums:
+:toc:
+:toclevels: 4
+
+This repository holds code to gr8di's Groovy school grails application.
+
+Groovy School is a series of free weekly training session/workshops were-in attendees are taught the Groovy programming language and some of the tools/frameworks within the Groovy ecosystem.
+ 
+
+== Getting started
+Fork and Clone this repository from https://github.com/GR8DI/groovyschool[this link]  to get started. To run the app locally, use the command
+ 
+ grails run-app
+
+== Prerequisites && Running
+Before running the app, you will need to setup your environment as follows:
+
+* Install grails and suitable IDE, preferred (Intellij) . Install grails using command
+ 
+ $sdk install grails
+
+* Navigate to your cloned project location in intellij idea, and in the terminal run the command.
+
+ $ grails run-app 
+ $ ./grailsw run-app
+
+Grails app will run on port https://localhost:8080
+
+== Contributing
+Your contributions are what will make this project a great addition to the gr8di ecosystem. Visit the contributing (https://github.com/GR8DI/groovyschool/CONTRIBUTING.adoc[contributing.adoc]) guide.
+
+== Testing 
+ $ grails test-app
+
+* If you want to run only unit tests or integration/functional tests, you can pass in a command line flag to choose one or the other.
+
+ $ ./grailsw test-app -unit 
+ $ ./grails test-app -integration
+
