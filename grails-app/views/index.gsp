@@ -21,22 +21,17 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="navigation-example-2">
                 <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="/" class="btn btn-simple">Home</a>
-                    </li>
-                    <li>
-                        <a href="#" class="btn btn-simple">About</a>
-                    </li>
-                    <li>
-                        <a href="#" class="btn btn-simple">Catalog</a>
-                    </li>
-                    <li>
-                        <a href="#" class="btn btn-simple">Contact</a>
-                    </li>
-                    <li>
-                        <a href="/register" class="btn btn-primary">Register/Login</a>
-                    </li>
+                    <li><a href="/" class="btn btn-simple">Home</a></li>
+
+                    <li><a href="#" class="btn btn-simple">About</a></li>
+
+                    <li><a href="#" class="btn btn-simple">Catalog</a></li>
+
+                    <li><a href="/contact" class="btn btn-simple">Contact</a></li>
+
+                    <li><a href="/register" class="btn btn-primary">Register/Login</a></li>
                 </ul>
+
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-->
         </nav> 
