@@ -28,7 +28,7 @@
                         <a href="#" class="btn btn-simple">About</a>
                     </li>
                     <li>
-                        <a href="#" class="btn btn-simple">Catalog</a>
+                        <a href="/catalog" class="btn btn-simple">Catalog</a>
                     </li>
                     <li>
                         <a href="#" class="btn btn-simple">Contact</a>
