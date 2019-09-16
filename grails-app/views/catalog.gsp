@@ -174,8 +174,7 @@
         </nav>
         <div class="copyright pull-right">
             &copy; 2019 - GRD8I
-            <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
-            <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+            
         </div>
     </div>
 </footer>
