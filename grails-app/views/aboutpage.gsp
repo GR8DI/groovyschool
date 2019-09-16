@@ -46,7 +46,7 @@
                 <div class="container">
                     <div class="motto">
                         <h1 class="title-uppercase"> About Groovy School</h1>
-                        <h3>Let us tell you about what we do</h3>
+                        <h3>Let us tell you more about what we do</h3>
                         </br>
                     </div>
                 </div>
