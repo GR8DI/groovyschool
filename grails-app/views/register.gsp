@@ -27,7 +27,7 @@
 					<a href="/" class="btn btn-simple">Home</a>
 				</li>
 				<li>
-					<a href="/aboutpage" class="btn btn-simple">About</a>
+					<a href="#" class="btn btn-simple">About</a>
 				</li>
 				<li>
 					<a href="#" class="btn btn-simple">Catalog</a>
