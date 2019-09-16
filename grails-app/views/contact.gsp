@@ -52,10 +52,10 @@
             <div class="collapse navbar-collapse" id="navigation-example-2">
               <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a href="../presentation.html#components" class="btn btn-simple btn-primary">Home</a>
+                    <a href="" class="btn btn-simple btn-primary">Home</a>
                 </li>
                 <li>
-                    <a href="../presentation.html#examples" class="btn btn-simple btn-primary">Catalog</a>
+                    <a href="" class="btn btn-simple btn-primary">Catalog</a>
                 </li>
                </ul>
             </div><!-- /.navbar-collapse -->
@@ -146,8 +146,8 @@
 
             <ul>
                 <li><a href="https://www.Groovy school.com">Groovy School</a></li>
-                <li><a href="http://blog.creative-tim.com"> About</a></li>
-                <li><a href="https://www.creative-tim.com">Catalog</a></li>
+                <li><a href=> About</a></li>
+                <li><a href=">Catalog</a></li>
             </ul>
         </nav>
 
