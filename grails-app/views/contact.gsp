@@ -18,7 +18,7 @@
 
         <nav class="navbar navbar-default" role="navigation-demo" id="demo-navbar">
              <div class="container">
-                <!-- Brand and toggle get grouped for better mobile display -->
+                <!-- Brand and toggle get grouped for better mobile display  -->
                    <div class="navbar-header">
                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example-2">
                 <span class="sr-only">Toggle navigation</span>
