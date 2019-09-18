@@ -54,7 +54,7 @@
             <div class="section landing-section">
                                 <div class="container">
                                 <h3>What is Groovy School?</h3>
-                                <h5>Groovy School is a series of free weekly training session/workshops where-in attendees are taught the Groovy programming language and some of the tools/frameworks within the Groovy ecosystem. The entire series lasts 6 months and is suitable for people who have never written any code before. At the end of the series, attendees are grouped and assigned an open source project to solve a real world problem affecting the community, using the knowledge and skills that they have obtained during the training.</h5>
+                                <h5>This is the paragraph where you can write more details about your product. Keep you user engaged by providing meaningful information. Remember that by this time, the user is curious, otherwise he wouldn't scroll to get here. Add a button if you want the user to see more.</h5>
                                 <br />
 
                                 <h5>We <i class="fa fa-heart icon-danger"></i> &nbsp; what we do.</h5>
@@ -62,28 +62,71 @@
                         <div class="col-md-4">
                             <div class="team-player">
                                 <img src='${resource(dir: "images/", file: "placeholder.jpg")}' alt="Thumbnail Image" class="img-circle img-responsive">
-                                <h5>Jenn Strater<br /><small class="text-muted">@twitter</small></h5>
-                                <p>You can write here details about one of your team members. You can give more details about what they do. Feel free to add some <a href="#">links</a> for people to be able to follow them outside the site.</p>
+                                <center><h5>Name<br /><small class="text-muted">@twitter</small></h5></center>
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="team-player">
                                 <img src='${resource(dir: "images/", file: "placeholder.jpg")}' class="img-circle img-responsive">
-                                <h5>Ken Kousen<br /><small class="text-muted">@twitter</small></h5>
-                                <p>You can write here details about one of your team members. You can give more details about what they do. Feel free to add some <a href="#">links</a> for people to be able to follow them outside the site.</p>
+                                <center><h5>Name<br /><small class="text-muted">@twitter</small></h5></center>
+
                             </div>
                         </div>
                         <div class="col-md-4">
                             <div class="team-player">
                                 <img src='${resource(dir: "images/", file: "placeholder.jpg")}' class="img-circle img-circle img-responsive">
-                                <h5>Paul King<br /><small class="text-muted">@twitter</small></h5>
-                                <p>You can write here details about one of your team members. You can give more details about what they do. Feel free to add some <a href="#">links</a> for people to be able to follow them outside the site.</p>
-                                <footer>
-                                         <center> &copy; 2019 - GR8DI
-                                         &nbsp; <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
-                                         &nbsp; <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
-                                         </center>
-                                </footer>
+                                <center><h5>Name<br /><small class="text-muted">@twitter</small></h5></center>
+
+                            </div>
+                        </div>
+
+                                                <div class="col-md-4">
+                                                    <div class="team-player">
+                                                        <img src='${resource(dir: "images/", file: "placeholder.jpg")}' alt="Thumbnail Image" class="img-circle img-responsive">
+                                                        <center><h5>Name<br /><small class="text-muted">@twitter</small></h5></center>
+
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="team-player">
+                                                        <img src='${resource(dir: "images/", file: "placeholder.jpg")}' class="img-circle img-responsive">
+                                                        <center><h5>Name<br /><small class="text-muted">@twitter</small></h5></center>
+
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <div class="team-player">
+                                                        <img src='${resource(dir: "images/", file: "placeholder.jpg")}' class="img-circle img-circle img-responsive">
+                                                        <center><h5>Name<br /><small class="text-muted">@twitter</small></h5></center>
+                                                     </div>
+                                                </div>
+                                                                        <div class="col-md-4">
+                                                                           <div class="team-player">
+                                                                               <img src='${resource(dir: "images/", file: "placeholder.jpg")}' alt="Thumbnail Image" class="img-circle img-responsive">
+                                                                               <center><h5> Name<br /><small class="text-muted">@twitter</small></h5></center>
+
+                                                                           </div>
+                                                                       </div>
+                                                                       <div class="col-md-4">
+                                                                           <div class="team-player">
+                                                                               <img src='${resource(dir: "images/", file: "placeholder.jpg")}' class="img-circle img-responsive">
+                                                                               <center><h5>Name<br /><small class="text-muted">@twitter</small></h5></center>
+
+                                                                           </div>
+                                                                       </div>
+                                                                       <div class="col-md-4">
+                                                                           <div class="team-player">
+                                                                               <img src='${resource(dir: "images/", file: "placeholder.jpg")}' class="img-circle img-circle img-responsive">
+                                                                               <center><h5>Name<br /><small class="text-muted">@twitter</small></h5></center>
+                                                                            </div>
+                                                                       </div>
+
+                                </div>
+                                                <div class="demo-footer text-center" style="margin-top:100px;">
+                                                    <h6>&copy; 2019 - GR8DI</h6>
+                                                </div>
+             </div>
+
                             </div>
                         </div>
                     </div>

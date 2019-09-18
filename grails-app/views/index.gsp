@@ -145,10 +145,10 @@
                 </ul>
             </nav>
             <div class="copyright pull-right">
-                &copy; 2019 - GR8DI
-                &nbsp; <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
-                &nbsp; <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
-            </div>
+                                                                      &copy; 2019 - GR8DI
+                                                                      &nbsp; <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+                                                                      &nbsp; <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+                                                                  </div>
         </div>
     </footer>
     </body>
