@@ -27,7 +27,7 @@
 					<a href="/" class="btn btn-simple">Home</a>
 				</li>
 				<li>
-					<a href="#" class="btn btn-simple">About</a>
+					<a href="/aboutpage" class="btn btn-simple">About</a>
 				</li>
 				<li>
 					<a href="/catalog" class="btn btn-simple">Catalog</a>
@@ -101,7 +101,7 @@
                                     <button class="btn btn-fill btn-block">Register</button>
                                 </form>
                                 <div class="login">
-                                    <p>Already have an account? <a>Log in</a>.</p>
+                                    <p>Already have an account? <a href="/login">Log in</a>.</p>
                                 </div>
                             </div>
                         </div>
