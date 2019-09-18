@@ -101,7 +101,7 @@
                                     <button class="btn btn-fill btn-block">Register</button>
                                 </form>
                                 <div class="login">
-                                    <p>Already have an account? <a>Log in</a>.</p>
+                                    <p>Already have an account? <a href="/login">Log in</a>.</p>
                                 </div>
                             </div>
                         </div>
