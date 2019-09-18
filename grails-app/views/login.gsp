@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta name="layout" content="main"/>
+	<meta name="layout" content="main" />
 	<title>Log In - Groovy School</title>
 </head>
 <body class="full-screen login">
+	<main class="full-screen login">
     <nav class="navbar navbar-ct-transparent navbar-fixed-top" role="navigation-demo" id="register-navbar">
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -15,7 +16,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="/">Groovy School</a>
+          <a class="navbar-brand" href="www.creative-tim.com">Groovy School</a>
         </div>
     
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -28,13 +29,13 @@
                 <a href="#" class="btn btn-simple">About</a>
             </li>
             <li>
-            	<a href="#" class="btn btn-simple">Catalog</a>
+                <a href="#" class="btn btn-simple">Catalog</a>
             </li>
             <li>
-            	<a href="#" class="btn btn-simple">Contact</a>
+                <a href="#" class="btn btn-simple">Contact</a>
             </li>
             <li>
-                <a href="/register" class="btn btn-simple">Register</a>
+            	<a href="/register" class="btn btn-simple">Register</a>
             </li>
            </ul>
         </div><!-- /.navbar-collapse -->
@@ -55,10 +56,10 @@
 
                                     <label>Password</label>
                                     <input type="password" class="form-control" placeholder="Password">
-                                    <button class="btn btn-danger btn-block">Log In</button>
+                                    <button class="btn btn-danger btn-block">Log in</button>
                                 </form>
                                 <div class="forgot">
-                                    <p>Dont have an account? <a href="/register" class="btn btn-simple btn-danger">Create one</a>
+                                    Don't have account? <a href="/register" class="btn btn-simple btn-danger">Create one</a>
                                 </div>
                             </div>
                         </div>
@@ -70,6 +71,5 @@
             </div>
         </div>
     </div>      
-
 </body>
 </html>
