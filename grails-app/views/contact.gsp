@@ -17,16 +17,6 @@
 
         <nav class="navbar navbar-default" role="navigation-demo" id="demo-navbar">
              <div class="container">
-                <!-- Brand and toggle get grouped for better mobile display  -->
-                   <div class="navbar-header">
-                   <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example-2">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="/">Groovy school</a>
-            </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                                <div class="collapse navbar-collapse" id="navigation-example-2">
@@ -136,7 +126,7 @@
                       <li><a href="/"> Groovy School</a></li>
                     <li><a href="/aboutpage">About</a></li>
                     <li><a href="#"> Catalog </a></li>
-                    <li><a href="#">Contact </a></li>
+                    <li><a href="/contact">Contact</a></li>
                 </ul>
             </nav>
             <div class="copyright pull-right">
