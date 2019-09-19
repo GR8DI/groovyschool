@@ -4,7 +4,20 @@
         <meta name="layout" content="main"/>
     </head>
     <body>
+          <nav class="navbar navbar-default" role="navigation-demo" id="demo-navbar">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example-2">
+                          <span class="sr-only">Toggle navigation</span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/">Groovy School</a>
+                    </div>
 
+<<<<<<< HEAD
         <nav class="navbar navbar-default" role="navigation-demo" id="demo-navbar">
             <div class="container">
                 <!-- Brand and toggle get grouped for better mobile display -->
@@ -38,6 +51,27 @@
                     </li>
                 </ul>
 
+=======
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="navigation-example-2">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="/" class="btn btn-simple">Home</a>
+                        </li>
+                        <li>
+                            <a href="/aboutpage" class="btn btn-simple">About</a>
+                        </li>
+                        <li>
+                            <a href="#" class="btn btn-simple">Catalog</a>
+                        </li>
+                        <li>
+                            <a href="#" class="btn btn-simple">Contact</a>
+                        </li>
+                        <li>
+                            <a href="/register" class="btn btn-primary">Register/Login</a>
+                        </li>
+                    </ul>
+>>>>>>> 40b593958ed119989a87a66dcacae0d7c38fbb4d
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-->
         </nav> 
@@ -147,10 +181,10 @@
                 </ul>
             </nav>
             <div class="copyright pull-right">
-                &copy; 2019 - GR8DI
-                &nbsp; <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
-                &nbsp; <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
-            </div>
+                                                                      &copy; 2019 - GR8DI
+                                                                      &nbsp; <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+                                                                      &nbsp; <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+                                                                  </div>
         </div>
     </footer>
     </body>
