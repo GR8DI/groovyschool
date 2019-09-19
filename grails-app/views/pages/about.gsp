@@ -5,42 +5,8 @@
     	<title>About Us - Groovy School</title>
 </head>
 <body>
-    <nav class="navbar navbar-default" role="navigation-demo" id="demo-navbar">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example-2">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="/">Groovy School</a>
-            </div>
-        
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="navigation-example-2">
-            <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <a href="/" class="btn btn-simple">Home</a>
-                </li>
-                <li>
-                    <a href="/about" class="btn btn-simple">About</a>
-                </li>
-                <li>
-                    <a href="/catalog" class="btn btn-simple">Catalog</a>
-                </li>
-                <li>
-                    <a href="/contact" class="btn btn-simple">Contact</a>
-                </li>
-                <li>
-                    <a href="/register" class="btn btn-primary">Register/Login</a>
-                </li>
-            </ul>
-                
-            </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-->
-    </nav> 
+
+    <g:render template="/pages/shared/nav"/>
 
     <div class="wrapper">
         <div class="about-header" style="background-image: url('${resource(dir: "images/", file: "bump.jpg")}'); box-shadow:inset 0 0 0 2000px rgba(255,255,255,0.7);">

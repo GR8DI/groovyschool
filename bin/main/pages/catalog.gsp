@@ -3,52 +3,13 @@
 <head>
     <meta name="layout" content="main"/>
 
-    <title>Catalog - GroovySchool</title>
+    <title>Catalog  - Groovy School</title>
 
 </head>
 
 <body>
+<g:render template="/pages/shared/nav"/>
 <main class="search">
-<nav class="navbar navbar-default " role="navigation-demo" id="demo-navbar">
-    <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example-2">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="/">Groovy School</a>
-        </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="navigation-example-2">
-            <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <a href="/" class="btn btn-simple">Home</a>
-                </li>
-                <li>
-                    <a href="/about" class="btn btn-simple">About</a>
-                </li>
-                <li>
-                    <a href="/catalog" class="btn btn-simple">Catalog</a>
-                </li>
-                <li>
-                    <a href="/contact" class="btn btn-simple">Contact</a>
-                </li>
-                <li>
-                    <a href="/register" class="btn btn-primary">Register/Login</a>
-                </li>
-
-            </ul>
-
-    </div><!-- /.container-->
-
-</nav>
-
-<!-- End Google Tag Manager (noscript) -->
-
 <div class="wrapper">
 
     <div class="main">
