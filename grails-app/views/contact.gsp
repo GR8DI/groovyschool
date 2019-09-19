@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta name="layout" content="main"/>
+<meta name="layout" content="main"/>
 	<title>Contact Us</title>
 </head>
 <body>
@@ -13,7 +13,7 @@
 		})(window,document,'script','dataLayer','GTM-NKDMSK6');</script>
 		</head>
 
-		<body class="contact-us">
+
 
         <nav class="navbar navbar-default" role="navigation-demo" id="demo-navbar">
              <div class="container">
@@ -29,7 +29,7 @@
             </div>
 
                 <!-- Collect the nav links, forms, and other content for toggling -->
-                                <div class="collapse navbar-collapse" id="navigation-example-2">
+                               <div class="collapse navbar-collapse" id="navigation-example-2">
                                 <ul class="nav navbar-nav navbar-right">
                                     <li>
                                         <a href="/" class="btn btn-simple">Home</a>
@@ -51,21 +51,6 @@
                                 </div><!-- /.navbar-collapse -->
                                 </div><!-- /.container-->
             </nav>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="navigation-example-2">
-              <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <a href="" class="btn btn-simple btn-primary">Home</a>
-                </li>
-                <li>
-                    <a href="" class="btn btn-simple btn-primary">Catalog</a>
-                </li>
-               </ul>
-            </div><!-- /.navbar-collapse -->
-          </div><!-- /.container-->
-        </nav>
-
 
 <div class="wrapper">
     <div class="main">
