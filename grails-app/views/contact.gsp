@@ -17,7 +17,6 @@
 
         <nav class="navbar navbar-default" role="navigation-demo" id="demo-navbar">
              <div class="container">
-
                 <!-- Collect the nav links, forms, and other content for toggling -->
                                <div class="collapse navbar-collapse" id="navigation-example-2">
                                 <ul class="nav navbar-nav navbar-right">
