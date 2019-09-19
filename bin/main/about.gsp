@@ -31,7 +31,7 @@
                     <a href="/catalog" class="btn btn-simple">Catalog</a>
                 </li>
                 <li>
-                    <a href="#" class="btn btn-simple">Contact</a>
+                    <a href="/contact" class="btn btn-simple">Contact</a>
                 </li>
                 <li>
                     <a href="/register" class="btn btn-primary">Register/Login</a>
@@ -138,7 +138,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="/contact">
                                 Contact
                             </a>
                         </li>
