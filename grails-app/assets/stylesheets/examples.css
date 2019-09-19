@@ -43,6 +43,15 @@
 .landing-section .column {
   padding: 0 75px 0 25px; }
 
+.about-header {
+  background-size: cover;
+  min-height: 400px; }
+
+.about-header .motto {
+  padding-top: 8%;
+  text-align: left;
+  z-index: 3; }
+
 .team-player .img-circle, .team-player .img-thumbnail {
   display: block;
   margin-top: 50px;

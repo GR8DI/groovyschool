@@ -5,25 +5,39 @@
     </head>
     <body>
 
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse" id="navigation-example-2">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li>
-                            <a href="/" class="btn btn-simple">Home</a>
-                        </li>
-                        <li>
-                            <a href="/aboutpage" class="btn btn-simple">About</a>
-                        </li>
-                        <li>
-                            <a href="/catalog" class="btn btn-simple">Catalog</a>
-                        </li>
-                        <li>
-                            <a href="/contact" class="btn btn-simple">Contact</a>
-                        </li>
-                        <li>
-                            <a href="/register" class="btn btn-primary">Register/Login</a>
-                        </li>
-                    </ul>
+        <nav class="navbar navbar-default" role="navigation-demo" id="demo-navbar">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example-2">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">Groovy School</a>
+                </div>
+            
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="navigation-example-2">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="/" class="btn btn-simple">Home</a>
+                    </li>
+                    <li>
+                        <a href="/about" class="btn btn-simple">About</a>
+                    </li>
+                    <li>
+                        <a href="/catalog" class="btn btn-simple">Catalog</a>
+                    </li>
+                    <li>
+                        <a href="/contact" class="btn btn-simple">Contact</a>
+                    </li>
+                    <li>
+                        <a href="/register" class="btn btn-primary">Register/Login</a>
+                    </li>
+                </ul>
+
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-->
         </nav> 
@@ -116,27 +130,27 @@
                         </a>
                     </li>
                     <li>
-                        <a href="/aboutpage">
+                        <a href="/about">
                            About
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="catalog">
                             Catalog 
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="/contact">
                             Contact 
                         </a>
                     </li>
                 </ul>
             </nav>
             <div class="copyright pull-right">
-                 &copy; 2019 - GR8DI
-                  &nbsp; <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
-                  &nbsp; <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
-             </div>
+                &copy; 2019 - GR8DI
+                &nbsp; <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+                &nbsp; <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+            </div>
         </div>
     </footer>
     </body>

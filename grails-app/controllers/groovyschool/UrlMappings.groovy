@@ -13,10 +13,10 @@ class UrlMappings {
         "/register"(view:"/register")
         "/catalog"(view:"/catalog")
         "/login"(view:"/login")
-        "/aboutpage"(view:"/aboutpage")
+        "/about"(view:"/about")
+        "/contact"(view:"/contact")
 
         "500"(view:'/error')
         "404"(view:'/notFound')
-        "/contact"(view:"/contact")
     }
 }
