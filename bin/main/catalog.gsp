@@ -129,11 +129,10 @@
     </div>
 
 </div>
-<footer class="footer-demo section-white-gray">
+<footer class="footer-demo section-dark">
     <div class="container">
         <nav class="pull-left">
             <ul>
-
                 <li>
                     <a href="/">
                         Groovy School
