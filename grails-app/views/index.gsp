@@ -4,19 +4,6 @@
         <meta name="layout" content="main"/>
     </head>
     <body>
-          <nav class="navbar navbar-default" role="navigation-demo" id="demo-navbar">
-                <div class="container">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example-2">
-                          <span class="sr-only">Toggle navigation</span>
-                          <span class="icon-bar"></span>
-                          <span class="icon-bar"></span>
-                          <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="/">Groovy School</a>
-                    </div>
-
         <nav class="navbar navbar-default" role="navigation-demo" id="demo-navbar">
             <div class="container">
                 <!-- Brand and toggle get grouped for better mobile display -->
@@ -37,7 +24,7 @@
                         <a href="/" class="btn btn-simple">Home</a>
                     </li>
                     <li>
-                        <a href="/aboutpage" class="btn btn-simple">About</a>
+                        <a href="/about" class="btn btn-simple">About</a>
                     </li>
                     <li>
                         <a href="/catalog" class="btn btn-simple">Catalog</a>
@@ -142,12 +129,12 @@
                         </a>
                     </li>
                     <li>
-                        <a href="/aboutpage">
+                        <a href="/about">
                            About
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="catalog">
                             Catalog 
                         </a>
                     </li>
@@ -159,10 +146,10 @@
                 </ul>
             </nav>
             <div class="copyright pull-right">
-                                                                      &copy; 2019 - GR8DI
-                                                                      &nbsp; <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
-                                                                      &nbsp; <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
-                                                                  </div>
+                &copy; 2019 - GR8DI
+                &nbsp; <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+                &nbsp; <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+            </div>
         </div>
     </footer>
     </body>

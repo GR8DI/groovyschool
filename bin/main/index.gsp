@@ -4,7 +4,6 @@
         <meta name="layout" content="main"/>
     </head>
     <body>
-
         <nav class="navbar navbar-default" role="navigation-demo" id="demo-navbar">
             <div class="container">
                 <!-- Brand and toggle get grouped for better mobile display -->
@@ -25,10 +24,10 @@
                         <a href="/" class="btn btn-simple">Home</a>
                     </li>
                     <li>
-                        <a href="#" class="btn btn-simple">About</a>
+                        <a href="/about" class="btn btn-simple">About</a>
                     </li>
                     <li>
-                        <a href="#" class="btn btn-simple">Catalog</a>
+                        <a href="/catalog" class="btn btn-simple">Catalog</a>
                     </li>
                     <li>
                         <a href="#" class="btn btn-simple">Contact</a>
@@ -37,6 +36,7 @@
                         <a href="/register" class="btn btn-primary">Register/Login</a>
                     </li>
                 </ul>
+                   
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-->
         </nav> 
@@ -129,12 +129,12 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="/about">
                            About
                         </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="catalog">
                             Catalog 
                         </a>
                     </li>
