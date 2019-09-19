@@ -1,7 +1,6 @@
 <!doctype html>
 <html lang="en">
 <head>
-
     <meta name="layout" content="main"/>
 	<title>Contact Us</title>
 </head>
@@ -28,6 +27,30 @@
               </button>
               <a class="navbar-brand" href="/">Groovy school</a>
             </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                                <div class="collapse navbar-collapse" id="navigation-example-2">
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li>
+                                        <a href="/" class="btn btn-simple">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="/aboutpage" class="btn btn-simple">About</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="btn btn-simple">Catalog</a>
+                                    </li>
+                                    <li>
+                                        <a href="/contact" class="btn btn-simple">Contact</a>
+                                    </li>
+                                    <li>
+                                        <a href="/register" class="btn btn-primary">Register/Login</a>
+                                    </li>
+                                </ul>
+
+                                </div><!-- /.navbar-collapse -->
+                                </div><!-- /.container-->
+            </nav>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="navigation-example-2">
@@ -121,22 +144,23 @@
     </div>
 </div>
 
-<footer class="footer-demo">
-    <div class="container">
-        <nav class="pull-left">
-
-            <ul>
-                <li><a href="https://www.Groovy school.com">Groovy School</a></li>
-                <li><a href=> About</a></li>
-                <li><a href=">Catalog</a></li>
-            </ul>
-        </nav>
-
-        <div class="copyright pull-right">
-            &copy; 2019 - GR8DI
+ <footer class="footer-demo section-dark">
+        <div class="container">
+            <nav class="pull-left">
+                <ul>
+                      <li><a href="/"> Groovy School</a></li>
+                    <li><a href="/aboutpage">About</a></li>
+                    <li><a href="#"> Catalog </a></li>
+                    <li><a href="#">Contact </a></li>
+                </ul>
+            </nav>
+            <div class="copyright pull-right">
+                &copy; 2019 - GR8DI
+                &nbsp; <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+                &nbsp; <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+            </div>
         </div>
-    </div>
-</footer>
+    </footer>
 </body>
 
 <!--  Plugins -->
