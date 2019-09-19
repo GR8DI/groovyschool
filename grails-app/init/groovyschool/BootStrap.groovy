@@ -1,7 +1,7 @@
 package groovyschool
 
 import grails.util.Environment
-import groovyschool.*
+import groovyschool.auth.*
 
 class BootStrap {
 

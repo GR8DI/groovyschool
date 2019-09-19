@@ -4,11 +4,11 @@
 			Tip 2: you can change the color of the active button using the data-active-color="primary | info | success | warning | danger"
 		-->
 			<div class="logo">
-				<a href="https://www.creative-tim.com" class="simple-text logo-mini">
+				<a href="#" class="simple-text logo-mini">
 					GS
 				</a>
 
-				<a href="https://www.creative-tim.com" class="simple-text logo-normal">
+				<a href="#" class="simple-text logo-normal">
 					Groovy School
 				</a>
 			</div>

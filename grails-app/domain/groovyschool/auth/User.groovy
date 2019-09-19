@@ -1,4 +1,4 @@
-package groovyschool
+package groovyschool.auth
 
 import groovy.transform.EqualsAndHashCode
 import groovy.transform.ToString

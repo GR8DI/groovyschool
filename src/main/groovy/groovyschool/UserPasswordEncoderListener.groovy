@@ -1,4 +1,4 @@
-package groovyschool
+package groovyschool.auth
 
 import grails.plugin.springsecurity.SpringSecurityService
 import org.grails.datastore.mapping.engine.event.AbstractPersistenceEvent

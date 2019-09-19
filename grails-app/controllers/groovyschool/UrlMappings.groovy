@@ -16,11 +16,11 @@ class UrlMappings {
         "/login"(view:"/page/login")
         "/about"(view:"/page/about")
         "/contact"(view:"/page/contact")
-        "/error"(view:"/page/error")
 
         "/summary"(view:"/dashboard/summary")
 
-        "500"(view:'/error')
-        "404"(view:'/notFound')
+        "500"(view:'/page/error')
+        "403"(view:'/page/error')
+        "404"(view:'/page/notFound')
     }
 }
