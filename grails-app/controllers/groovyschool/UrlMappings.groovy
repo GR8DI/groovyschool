@@ -14,6 +14,7 @@ class UrlMappings {
         "/catalog"(view:"/catalog")
         "/login"(view:"/login")
         "/about"(view:"/about")
+        "/contact"(view:"/contact")
 
         "500"(view:'/error')
         "404"(view:'/notFound')
