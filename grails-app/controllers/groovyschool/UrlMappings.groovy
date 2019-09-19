@@ -9,14 +9,16 @@ class UrlMappings {
             }
         }
 
-        "/"(view:"/pages/home")
-        "/home"(view:"/pages/home")
-        "/register"(view:"/pages/register")
-        "/catalog"(view:"/pages/catalog")
-        "/login"(view:"/pages/login")
-        "/about"(view:"/pages/about")
-        "/contact"(view:"/pages/contact")
-        "/error"(view:"/pages/error")
+        "/"(view:"/page/home")
+        "/home"(view:"/page/home")
+        "/register"(view:"/page/register")
+        "/catalog"(view:"/page/catalog")
+        "/login"(view:"/page/login")
+        "/about"(view:"/page/about")
+        "/contact"(view:"/page/contact")
+        "/error"(view:"/page/error")
+
+        "/summary"(view:"/dashboard/summary")
 
         "500"(view:'/error')
         "404"(view:'/notFound')
