@@ -9,14 +9,18 @@ class UrlMappings {
             }
         }
 
-        "/"(view:"/index")
-        "/register"(view:"/register")
-        "/catalog"(view:"/catalog")
-        "/login"(view:"/login")
-        "/about"(view:"/about")
-        "/contact"(view:"/contact")
+        "/"(view:"/page/home")
+        "/home"(view:"/page/home")
+        "/register"(view:"/page/register")
+        "/login"(view:"/page/login")
+        "/catalog"(view:"/page/catalog")
+        "/about"(view:"/page/about")
+        "/contact"(view:"/page/contact")
 
-        "500"(view:'/error')
-        "404"(view:'/notFound')
+        "/summary"(view:"/dashboard/summary")
+
+        "500"(view:'/page/error')
+        "403"(view:'/login/auth')
+        "404"(view:'/page/notFound')
     }
 }
