@@ -15,17 +15,17 @@
                         <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1 ">
                             <div class="demo-card">
                                 <h3 class="title">Welcome</h3>
-                                <form class="register-form">
-                                    <label>Email</label>
-                                    <input type="text" class="form-control" placeholder="Email">
+                                <form action="/login/authenticate" method="POST" id="loginForm" class="register-form" autocomplete="off">
+                                    <label for="email">Email</label>
+                                    <input type="text" class="form-control" name="email" id="email" placeholder="example@gr8di.com">
 
-                                    <label>Password</label>
-                                    <input type="password" class="form-control" placeholder="Password">
-                                    <button class="btn btn-danger btn-block">Log in</button>
+                                    <label for="password">Password</label>
+                                    <input type="password" class="form-control" name="password" id="password" placeholder="Password">
+                                    <input type="submit" id="submit" value="Log in" class="btn btn-danger btn-block"/>
                                 </form>
-                                <div class="forgot" style="padding-top: 20px;">
-                                    Don't have account? 
-                                    <a href="/register" class="btn btn-simple" style="color: #337ab7">Create one</a>
+                                <div class="forgot text-center" style="padding-top: 20px;">
+                                    New User ? <br/> 
+                                    <a href="/register" class="btn btn-simple" style="color: #337ab7">Register</a>
                                 </div>
                             </div>
                         </div>

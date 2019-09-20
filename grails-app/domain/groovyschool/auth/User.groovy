@@ -5,13 +5,13 @@ import groovy.transform.ToString
 import grails.compiler.GrailsCompileStatic
 
 @GrailsCompileStatic
-@EqualsAndHashCode(includes='email')
-@ToString(includes='email', includeNames=true, includePackage=false)
+@EqualsAndHashCode(includes='username')
+@ToString(includes='username', includeNames=true, includePackage=false)
 class User implements Serializable {
 
     private static final long serialVersionUID = 1
 
-    String email
+    String username
     String password
     boolean enabled = true
     boolean accountExpired
@@ -24,7 +24,7 @@ class User implements Serializable {
 
     static constraints = {
         password nullable: false, blank: false, password: true
-        email blank: false, unique: true, email: true
+        username nullable: false, blank: false, unique: true
     }
 
     static mapping = {

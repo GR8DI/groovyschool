@@ -104,3 +104,7 @@ assets {
     minifyCss = true
     includes = ["fonts/*"]
 }
+
+springBoot {
+    mainClassName = 'groovyschool.Application'
+}

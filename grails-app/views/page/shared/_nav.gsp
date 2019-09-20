@@ -27,7 +27,7 @@
                 <a href="/contact" class="btn btn-simple">Contact</a>
             </li>
             <li>
-                <a href="/register" class="btn btn-primary">Login/Register</a>
+                <a href="/login" class="btn btn-primary">Login/Register</a>
             </li>
         </ul>
             
