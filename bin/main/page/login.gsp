@@ -14,6 +14,9 @@
                     <div class="row">
                         <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1 ">
                             <div class="demo-card">
+                                <g:if test='${flash.message}'>
+                                    <div class="login_message">${flash.message}</div>
+                                </g:if>
                                 <h3 class="title">Welcome</h3>
                                 <form action="/login/authenticate" method="POST" id="loginForm" class="register-form" autocomplete="off">
                                     <label for="email">Email</label>
@@ -24,18 +27,18 @@
                                     <input type="submit" id="submit" value="Log in" class="btn btn-danger btn-block"/>
                                 </form>
                                 <div class="forgot text-center" style="padding-top: 20px;">
-                                    New User ? <br/> 
+                                    New User ? <br/>
                                     <a href="/register" class="btn btn-simple" style="color: #337ab7">Register</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-            </div>     
-            
+            </div>
+
             <div class="demo-footer text-center">
                     <h6>&copy; 2019 - GR8DI</h6>
             </div>
         </div>
-    </div>      
+    </div>
 </body>
 </html>
