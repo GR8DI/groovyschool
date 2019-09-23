@@ -44,26 +44,28 @@
                         <div class="col-md-4 col-sm-5 col-xs-12">
                             <div class="demo-card">
                                 <h3 class="title text-center">Register</h3>
-                                <div class="social">
-                                    <button href="#" class="btn btn-fill btn-icon btn-facebook"><i class="fa fa-facebook"></i></button>
-                                    <button href="#" class="btn btn-fill btn-icon btn-google"><i class="fa fa-google"></i></button>
-                                    <button href="#" class="btn btn-fill btn-icon btn-twitter"><i class="fa fa-twitter"></i></button>
-                                </div>
+                                
+                                <g:if test='${flash.message}'>
+                                    <div role="status">${flash.message}</div>
+                                </g:if>
 
-                                <div class="division">
-                                    <div class="line l"></div>
-                                    <span>or</span>
-                                    <div class="line r"></div>
-                                </div>
-                                <form class="register-form">
-                                    <input type="text" class="form-control" placeholder="Email">
+                                <g:hasErrors bean="${this.user}">
+                                    <ul class="errors" role="alert">
+                                        <g:eachError bean="${this.user}" var="error">
+                                        <li <g:if test="${error in org.springframework.validation.FieldError}">data-field-id="${error.field}"</g:if>><g:message error="${error}"/></li>
+                                        </g:eachError>
+                                    </ul>
+                                </g:hasErrors>
 
-                                    <input type="password" class="form-control" placeholder="Password">
+                                <g:form controller="user" action="register" class="register-form">
+                                    <g:textField class="form-control" name="email" placeholder="Email"/>
+
+                                    <g:passwordField class="form-control" name="password" placeholder="Password"/>
                                     
-                                    <input type="password" class="form-control" placeholder="Confirm Password">
+                                    <input type="password" name="confirm_password" class="form-control" placeholder="Confirm Password">
                                     
-                                    <button class="btn btn-fill btn-block">Register</button>
-                                </form>
+                                    <input type="submit" id="submit" value="Register" class="btn btn-fill btn-block"/>
+                                </g:form>
                                 <div class="login">
                                     <p>Already have an account? <a href="/login">Log in</a>.</p>
                                 </div>
