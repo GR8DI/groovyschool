@@ -1,5 +1,3 @@
-
-
 // Added by the Spring Security Core plugin:
 grails.plugin.springsecurity.userLookup.userDomainClassName = 'groovyschool.auth.User'
 grails.plugin.springsecurity.userLookup.authorityJoinClassName = 'groovyschool.auth.UserRole'
@@ -27,4 +25,6 @@ grails.plugin.springsecurity.filterChain.chainMap = [
 	[pattern: '/**/favicon.ico', filters: 'none'],
 	[pattern: '/**',             filters: 'JOINED_FILTERS']
 ]
+grails.plugin.springsecurity.failureHandler.defaultFailureUrl = "/login"
+grails.plugin.springsecurity.successHandler.defaultTargetUrl = '/summary'
 
