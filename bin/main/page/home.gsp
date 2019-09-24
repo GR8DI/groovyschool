@@ -39,17 +39,17 @@
                             <div class="col-md-4 column">
                                 <h4>Core Groovy</h4>
                                 <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
-                                <a class="btn btn-danger btn-simple" href="#">Enroll <i class="fa fa-chevron-right"></i></a>
+                                <a class="btn btn-danger btn-simple" href="#">More<i class="fa fa-chevron-right"></i></a>
                             </div>
                             <div class="col-md-4 column">
                                 <h4>Spock Testing</h4>
                                 <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
-                                <a class="btn btn-danger btn-simple" href="#">Enroll <i class="fa fa-chevron-right"></i></a>
+                                <a class="btn btn-danger btn-simple" href="#">More<i class="fa fa-chevron-right"></i></a>
                             </div>
                             <div class="col-md-4 column">
                                 <h4>Grails Framework</h4>
                                 <p>Divide details about your product or agency work into parts. Write a few lines about each one. A paragraph describing a feature will be enough.</p>
-                                <a class="btn btn-danger btn-simple" href="#">Enroll <i class="fa fa-chevron-right"></i></a>
+                                <a class="btn btn-danger btn-simple" href="#">More<i class="fa fa-chevron-right"></i></a>
                             </div>
                         </div>
                     </div>

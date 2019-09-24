@@ -13,9 +13,11 @@ class UrlMappings {
         "/home"(view:"/page/home")
         "/register"(view:"/page/register")
         "/login"(view:"/page/login")
+        "/login/auth"(view:"/page/login")
         "/catalog"(view:"/page/catalog")
         "/about"(view:"/page/about")
         "/contact"(view:"/page/contact")
+        "/course"(view:'/page/course')
 
         "/summary"(view:"/dashboard/summary")
 
