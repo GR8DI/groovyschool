@@ -1,5 +1,8 @@
 package groovyschool
 
+import grails.compiler.GrailsCompileStatic
+
+@GrailsCompileStatic
 class Course implements Serializable {
 
     private static final long serialVersionUID = 1
@@ -10,7 +13,7 @@ class Course implements Serializable {
     String image_url
     String description
     Date datePublished
-    String status = draft //draft, published, archived 
+    String status = "draft" //draft, published, archived 
 
     static constraints = {
         title nullable: false, blank: false, unique: true
