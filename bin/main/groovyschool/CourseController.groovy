@@ -10,13 +10,13 @@ class CourseController {
         render '/page/course'
     }
 
-    def show() = {
-        def course = Contact.get(params.id)
+    def show() {
+        def course = Course.get(params.id)
         [course: course]
     }
 
     def update() {
-        def course = Contact.get(params.id)
+        def course = Course.get(params.id)
         course.properties = params
         course.save flush: true, failOnError: true
         redirect action: "show", id: params.id
