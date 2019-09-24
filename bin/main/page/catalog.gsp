@@ -39,7 +39,7 @@
                                         </h5>
                                     </div>
                                     <div class="col-md-2 col-xs-2">
-                                        <a href="#" class="btn btn-info btn-fill" role="button">View</a>
+                                        <a href="/course" class="btn btn-info btn-fill" role="button">View</a>
                                     </div>
                                 </div>
                             </li>
@@ -56,7 +56,7 @@
                                         </h5>
                                     </div>
                                     <div class="col-md-2 col-xs-2">
-                                        <a href="#" class="btn btn-info btn-fill" role="button">View</a>
+                                        <a href="course" class="btn btn-info btn-fill" role="button">View</a>
                                     </div>
 
                                 </div>
@@ -74,7 +74,7 @@
                                         </h5>
                                     </div>
                                     <div class="col-md-2 col-xs-2">
-                                        <a href="#" class="btn btn-info btn-fill" role="button">View</a>
+                                        <a href="course" class="btn btn-info btn-fill" role="button">View</a>
                                     </div>
                                 </div>
                             </li>

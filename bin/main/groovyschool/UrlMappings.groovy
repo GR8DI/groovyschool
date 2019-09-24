@@ -17,6 +17,7 @@ class UrlMappings {
         "/catalog"(view:"/page/catalog")
         "/about"(view:"/page/about")
         "/contact"(view:"/page/contact")
+        "/course"(view:'/page/course')
 
         "/summary"(view:"/dashboard/summary")
 
