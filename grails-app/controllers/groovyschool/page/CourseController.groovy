@@ -1,5 +1,6 @@
 package groovyschool.page
 
+import groovyschool.shared.Course
 import grails.plugin.springsecurity.annotation.Secured
 
 

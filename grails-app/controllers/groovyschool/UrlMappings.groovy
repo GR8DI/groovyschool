@@ -17,6 +17,7 @@ class UrlMappings {
         "/page/catalog"(view:"/page/catalog")
         "/page/about"(view:"/page/about")
         "/page/contact"(view:"/page/contact")
+        "/page/course"(view:"/page/course")
 
         "500"(view:'/page/error')
         "403"(view:'/login/auth')
