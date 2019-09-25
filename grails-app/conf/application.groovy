@@ -6,8 +6,7 @@ grails.plugin.springsecurity.useBasicAuth = true
 grails.plugin.springsecurity.controllerAnnotations.staticRules = [
 	[pattern: '/',               access: ['permitAll']],
 	[pattern: '/page/**',        access: ['permitAll']],
-	[pattern: '/user/**',        access: ['permitAll']],
-	[pattern: '/dashboard/**',   access: ['permitAll']],
+	[pattern: '/user/register',  access: ['permitAll']],
 	[pattern: '/error',          access: ['permitAll']],
 	[pattern: '/index',          access: ['permitAll']],
 	[pattern: '/index.gsp',      access: ['permitAll']],
