@@ -1,4 +1,4 @@
-package groovyschool
+package groovyschool.shared
 
 import grails.compiler.GrailsCompileStatic
 

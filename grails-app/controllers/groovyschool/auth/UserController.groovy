@@ -33,14 +33,12 @@ class UserController {
 
         try {
             userService.save(user)
-            def studentRole = roleService.get('ROLE_STUDENT')
-            UserRole.create(user, studentRole)
         } catch (ValidationException e) {
             respond user.errors, view:'/page/register'
             return
         }
 
-        render view: '/dashboard/summary'
+        render view: '/admin/dashboard'
     }
 
     def edit(Long id) {

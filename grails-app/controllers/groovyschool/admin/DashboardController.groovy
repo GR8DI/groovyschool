@@ -1,11 +1,11 @@
-package groovyschool
+package groovyschool.admin
 
 import grails.plugin.springsecurity.annotation.Secured
 
-class SummaryController {
+class DashboardController {
 
     @Secured('ROLE_ADMIN')
     def index(){
-        render(view: '/dashboard/summary')
+        render(view: '/admin/dashboard')
     }
 }

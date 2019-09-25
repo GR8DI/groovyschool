@@ -94,17 +94,17 @@
                         </a>
                     </li>
                     <li>
-                        <a href="/about">
+                        <a href="/page/about">
                            About
                         </a>
                     </li>
                     <li>
-                        <a href="catalog">
+                        <a href="/page/catalog">
                             Catalog 
                         </a>
                     </li>
                     <li>
-                        <a href="/contact">
+                        <a href="/page/contact">
                             Contact 
                         </a>
                     </li>

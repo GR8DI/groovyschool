@@ -39,7 +39,7 @@
                                         </h5>
                                     </div>
                                     <div class="col-md-2 col-xs-2">
-                                        <a href="/course" class="btn btn-info btn-fill" role="button">View</a>
+                                        <a href="/page/course" class="btn btn-info btn-fill" role="button">View</a>
                                     </div>
                                 </div>
                             </li>
@@ -56,7 +56,7 @@
                                         </h5>
                                     </div>
                                     <div class="col-md-2 col-xs-2">
-                                        <a href="course" class="btn btn-info btn-fill" role="button">View</a>
+                                        <a href="/page/course" class="btn btn-info btn-fill" role="button">View</a>
                                     </div>
 
                                 </div>
@@ -74,7 +74,7 @@
                                         </h5>
                                     </div>
                                     <div class="col-md-2 col-xs-2">
-                                        <a href="course" class="btn btn-info btn-fill" role="button">View</a>
+                                        <a href="/page/course" class="btn btn-info btn-fill" role="button">View</a>
                                     </div>
                                 </div>
                             </li>
@@ -100,17 +100,17 @@
                     </a>
                 </li>
                 <li>
-                    <a href="/about">
+                    <a href="/page/about">
                         About
                     </a>
                 </li>
                 <li>
-                    <a href="/catalog">
+                    <a href="/page/catalog">
                         Catalog
                     </a>
                 </li>
                 <li>
-                    <a href="/contact">
+                    <a href="/page/contact">
                         Contact
                     </a>
                 </li>

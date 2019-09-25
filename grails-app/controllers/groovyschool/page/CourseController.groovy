@@ -1,4 +1,4 @@
-package groovyschool
+package groovyschool.page
 
 import grails.plugin.springsecurity.annotation.Secured
 
@@ -7,7 +7,6 @@ class CourseController {
 
     static allowedMethods = [create: "POST", update: "PUT", delete: "DELETE"]
 
-    @Secured('permitAll')
     def index() {
         render(view: '/page/course')
     }
