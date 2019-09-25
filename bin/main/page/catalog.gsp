@@ -90,38 +90,7 @@
     </div>
 
 </div>
-<footer class="footer-demo section-dark">
-    <div class="container">
-        <nav class="pull-left">
-            <ul>
-                <li>
-                    <a href="/">
-                        Groovy School
-                    </a>
-                </li>
-                <li>
-                    <a href="/page/about">
-                        About
-                    </a>
-                </li>
-                <li>
-                    <a href="/page/catalog">
-                        Catalog
-                    </a>
-                </li>
-                <li>
-                    <a href="/page/contact">
-                        Contact
-                    </a>
-                </li>
-            </ul>
-        </nav>
-        <div class="copyright pull-right">
-            &copy; 2019 - GRD8I
-           
-        </div>
-    </div>
-</footer>
+    <g:render template="/page/shared/footer"/>
 
 </main>
 </body>
