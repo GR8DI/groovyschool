@@ -13,10 +13,8 @@ class BootStrap {
 
     def createDevUsers() { 
         def adminRole = new Role(authority: 'ROLE_ADMIN').save(failOnError:true)
-
         def admin = new User(email: "admin@gr8di.com", password: 'password').save(failOnError:true)
-
-        UserRole.create(admin, adminRole)
+        new UserRole(user: admin, role: adminRole).save(failOnError:true)
     }
 
     def destroy = {
