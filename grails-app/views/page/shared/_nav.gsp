@@ -15,19 +15,19 @@
         <div class="collapse navbar-collapse" id="navigation-example-2">
         <ul class="nav navbar-nav navbar-right">
             <li>
-                <a href="/home" class="btn btn-simple">Home</a>
+                <a href="/page/home" class="btn btn-simple">Home</a>
             </li>
             <li>
-                <a href="/about" class="btn btn-simple">About</a>
+                <a href="/page/about" class="btn btn-simple">About</a>
             </li>
             <li>
-                <a href="/catalog" class="btn btn-simple">Catalog</a>
+                <a href="/page/catalog" class="btn btn-simple">Catalog</a>
             </li>
             <li>
-                <a href="/contact" class="btn btn-simple">Contact</a>
+                <a href="/page/contact" class="btn btn-simple">Contact</a>
             </li>
             <li>
-                <a href="/login" class="btn btn-primary">Login/Register</a>
+                <a href="/page/login" class="btn btn-primary">Login/Register</a>
             </li>
         </ul>
             

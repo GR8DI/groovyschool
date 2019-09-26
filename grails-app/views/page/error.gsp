@@ -28,5 +28,7 @@
                 <li>An error has occurred</li>
             </ul>
         </g:else>
+
+    <g:render template="/page/shared/footer"/>
     </body>
 </html>

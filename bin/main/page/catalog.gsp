@@ -39,7 +39,7 @@
                                         </h5>
                                     </div>
                                     <div class="col-md-2 col-xs-2">
-                                        <a href="/course" class="btn btn-info btn-fill" role="button">View</a>
+                                        <a href="/page/course" class="btn btn-info btn-fill" role="button">View</a>
                                     </div>
                                 </div>
                             </li>
@@ -56,7 +56,7 @@
                                         </h5>
                                     </div>
                                     <div class="col-md-2 col-xs-2">
-                                        <a href="course" class="btn btn-info btn-fill" role="button">View</a>
+                                        <a href="/page/course" class="btn btn-info btn-fill" role="button">View</a>
                                     </div>
 
                                 </div>
@@ -74,7 +74,7 @@
                                         </h5>
                                     </div>
                                     <div class="col-md-2 col-xs-2">
-                                        <a href="course" class="btn btn-info btn-fill" role="button">View</a>
+                                        <a href="/page/course" class="btn btn-info btn-fill" role="button">View</a>
                                     </div>
                                 </div>
                             </li>
@@ -90,38 +90,7 @@
     </div>
 
 </div>
-<footer class="footer-demo section-dark">
-    <div class="container">
-        <nav class="pull-left">
-            <ul>
-                <li>
-                    <a href="/">
-                        Groovy School
-                    </a>
-                </li>
-                <li>
-                    <a href="/about">
-                        About
-                    </a>
-                </li>
-                <li>
-                    <a href="/catalog">
-                        Catalog
-                    </a>
-                </li>
-                <li>
-                    <a href="/contact">
-                        Contact
-                    </a>
-                </li>
-            </ul>
-        </nav>
-        <div class="copyright pull-right">
-            &copy; 2019 - GRD8I
-           
-        </div>
-    </div>
-</footer>
+    <g:render template="/page/shared/footer"/>
 
 </main>
 </body>

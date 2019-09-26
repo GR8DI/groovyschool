@@ -6,11 +6,8 @@ grails.plugin.springsecurity.useBasicAuth = true
 grails.plugin.springsecurity.controllerAnnotations.staticRules = [
 	[pattern: '/',               access: ['permitAll']],
 	[pattern: '/page/**',        access: ['permitAll']],
-	[pattern: '/user/**',        access: ['permitAll']],
-	[pattern: '/dashboard/**',   access: ['permitAll']],
+	[pattern: '/admin/**',       access: ['ROLE_ADMIN']],
 	[pattern: '/error',          access: ['permitAll']],
-	[pattern: '/index',          access: ['permitAll']],
-	[pattern: '/index.gsp',      access: ['permitAll']],
 	[pattern: '/shutdown',       access: ['permitAll']],
 	[pattern: '/assets/**',      access: ['permitAll']],
 	[pattern: '/**/js/**',       access: ['permitAll']],
@@ -27,7 +24,7 @@ grails.plugin.springsecurity.filterChain.chainMap = [
 	[pattern: '/**/favicon.ico', filters: 'none'],
 	[pattern: '/**',             filters: 'JOINED_FILTERS']
 ]
-grails.plugin.springsecurity.successHandler.defaultTargetUrl = '/summary'
+grails.plugin.springsecurity.successHandler.defaultTargetUrl = '/admin/dashboard'
 grails.plugin.springsecurity.userLookup.usernamePropertyName='email'
-grails.plugin.springsecurity.logout.afterLogoutUrl = "/home"
+grails.plugin.springsecurity.logout.afterLogoutUrl = "/"
 

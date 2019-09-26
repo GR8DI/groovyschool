@@ -12,5 +12,8 @@
             <li>Error: Page Not Found (404)</li>
             <li>Path: ${request.forwardURI}</li>
         </ul>
+
+    <g:render template="/page/shared/footer"/>
+    
     </body>
 </html>

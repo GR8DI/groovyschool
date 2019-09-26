@@ -2,13 +2,14 @@ package groovyschool.auth
 
 import grails.validation.ValidationException
 import static org.springframework.http.HttpStatus.*
+import grails.plugin.springsecurity.annotation.Secured
 
 class UserController {
 
     UserService userService
     RoleService roleService
 
-    static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
+    static allowedMethods = [register: "POST", update: "PUT", delete: "DELETE"]
 
     def index(Integer max) {
         params.max = Math.min(max ?: 10, 100)
@@ -23,6 +24,7 @@ class UserController {
         respond new User(params)
     }
 
+    @Secured('permitAll')
     def register(User user) {
         if (user == null) {
             notFound()
@@ -31,14 +33,12 @@ class UserController {
 
         try {
             userService.save(user)
-            def studentRole = roleService.get('ROLE_STUDENT')
-            UserRole.create(user, studentRole)
         } catch (ValidationException e) {
             respond user.errors, view:'/page/register'
             return
         }
 
-        render view: '/dashboard/summary'
+        render view: '/admin/dashboard'
     }
 
     def edit(Long id) {
