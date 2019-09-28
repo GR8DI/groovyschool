@@ -72,7 +72,7 @@
 
                             <div class="row">
                                 <div class="col-md-6 col-md-offset-3">
-                                    <button class="btn btn-primary btn-fill btn-block">Send </button>
+                                    <button class="btn btn-primary btn-fill btn-block"><g:link controller="Message" action="create">Send </g:link></button>
                                 </div>
                             </div>
 
