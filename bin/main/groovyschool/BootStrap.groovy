@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package groovyschool
 
 import grails.util.Environment
@@ -20,3 +21,15 @@ class BootStrap {
     def destroy = {
     }
 }
+||||||| merged common ancestors
+=======
+package groovyschool
+
+class BootStrap {
+
+    def init = { servletContext ->
+    }
+    def destroy = {
+    }
+}
+>>>>>>> pull from upstream
