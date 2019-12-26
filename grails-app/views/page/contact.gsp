@@ -49,26 +49,26 @@
                         <form class="contact">
                             <div class="row">
                                 <div class="col-md-6">
-                                    <input type="text" class="form-control" placeholder="First Name">
+                                    <input type="text" class="form-control" id="${User.name}" placeholder="First Name">
 
                                 </div>
                                 <div class="col-md-6">
-                                    <input type="text" class="form-control" placeholder="Last Name">
+                                    <input type="text" class="form-control" id="${User.name}" placeholder="Last Name">
 
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-6">
-                                    <input type="text" class="form-control" placeholder="Email">
+                                    <input type="text" class="form-control" id="${User.name}" placeholder="Email">
 
                                 </div>
                                 <div class="col-md-6">
-                                    <input type="text" class="form-control" placeholder="Subject">
+                                    <input type="text" class="form-control" id="${User.name}" placeholder="Subject">
 
                                 </div>
                             </div>
 
-                            <textarea class="form-control" placeholder="Message" rows="7" ></textarea>
+                            <textarea class="form-control" id="${User.name}" placeholder="Message" rows="7" ></textarea>
 
                             <div class="row">
                                 <div class="col-md-6 col-md-offset-3">
