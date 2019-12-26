@@ -46,37 +46,29 @@
                 <div class="row">
                     <div class="col-md-6 col-md-offset-3 text-center">
                         <h3><small>Or drop us a note</small></h3>
-                        <form class="contact">
+                        
+                        <g:form class="contact" controller = "contact" action = "save">
                             <div class="row">
-                                <div class="col-md-6">
-                                    <input type="text" class="form-control" id="${User.name}" placeholder="First Name">
-
-                                </div>
-                                <div class="col-md-6">
-                                    <input type="text" class="form-control" id="${User.name}" placeholder="Last Name">
-
+                                <div class="col-md-12">
+                                    <g:textField class= "form-control" id="${User.name}" name="fullName" placeholder="Full Name"/>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-md-6">
-                                    <input type="text" class="form-control" id="${User.name}" placeholder="Email">
-
+                                    <g:textField class= "form-control" id="${User.name}" name="email" placeholder="Email"/>
                                 </div>
                                 <div class="col-md-6">
-                                    <input type="text" class="form-control" id="${User.name}" placeholder="Subject">
-
+                                    <g:textField class= "form-control" id="${User.name}" name="subject" placeholder="Subject"/>
                                 </div>
                             </div>
-
-                            <textarea class="form-control" id="${User.name}" placeholder="Message" rows="7" ></textarea>
-
+                            <g:textArea class= "form-control" id="${User.name}" name="message" placeholder="Message"/>
                             <div class="row">
-                                <div class="col-md-6 col-md-offset-3">
-                                    <button class="btn btn-primary btn-fill btn-block">Send </button>
+                                <div class="col-md-4 col-md-offset-4">
+                                    <g:actionSubmit class="btn btn-primary btn-fill btn-block" value="send" action="update"/>
                                 </div>
                             </div>
+                        </g:form>
 
-                        </form>
                     </div>
                 </div>
             </div>
