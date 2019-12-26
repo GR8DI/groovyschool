@@ -14,7 +14,7 @@
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2 text-center">
                         <h2 class="title">Get in touch with us</h2>
-                        <p>Welcome to our contact us page here you can reach the administrators with whatever woories, questions or suggestions you have .</p>
+                        <p>Welcome to our contact us page here you can reach the administrators with whatever worries, questions or suggestions you have .</p>
                     </div>
                 </div>
                 <div class="row">
