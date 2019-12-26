@@ -1,13 +1,13 @@
-class User {
-    String fullName
-    String email
-    String subject
-    String message
+class ContactController {
+    def show = {
+        def contact = User.get(params.id)
+        [contact: contact]
+    }
 
-    static constraints = {
-        fullName blank: false, unique: true, matches:"[a-zA-Z1-9_]+"
-        email blank: false, unique: true, matches:"[a-zA-Z1-9_]+@"
-        subject nullable: false
-        message blank: false
+    def update = {
+        def contact = User.get(params.id)
+        contact.properties = params
+        contact.save flush: true, failOnError: true
+        redirect action: "show", id: params.id
     }
 }
