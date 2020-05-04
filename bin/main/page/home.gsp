@@ -14,7 +14,7 @@
                         <h1 class="title-uppercase">Groovy School</h1>
                         <h3>Start designing your landing page here.</h3>
                         <br />
-                        <a href="#" class="btn"><i class="fa fa-play"></i>Watch Intro</a>
+                        <a href="#" class="btn"><i class="fa fa-play"></i>Learn more</a>
                         <a class="btn">Start Learning</a>
                     </div>
                 </div>    
